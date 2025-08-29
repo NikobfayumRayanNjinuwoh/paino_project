@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.piano {
+    width: 1300px;
+    height: 600px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paino_body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.paino_speaker {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+}
+
+.paino_interface{
+    width: 500px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: grey;
+    box-shadow: inset 0 0  10px black;
+    color: white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.paino_play-btn, select{
+ font: size 16px;
+
+}
+
+.piano_keyboard{
+    width: 100%;
+    height: 300px;
+    background-color: #0000;
+    display: flex;
+}
+
+.paino_keys{
+    width: 30px;
+    height: 100%;
+    padding: 0 ;
+    margin: 0 1px;
+    background-color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.paino_key--black{
+    background-color: #0000;
+    color: white;
+    height: 60px;
+    position: ;
+}

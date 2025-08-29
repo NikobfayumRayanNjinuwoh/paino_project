@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="piano">
+        <div class="piano_body">
+            <div class="paino_speaker"> </div>
+
+            <div class="paino_interface">
+                <div class="paino_controls">
+                    <h4 class="piano_heading">PIANO</h4>
+                    <label><input type="radio" class="paino_controls" name="contrlos" value="letterNotes"> Letter
+                        Notes</label>
+                    <label><input type="radio" class="paino_controls" name="contrlos" value="keyboard">keyboard </label>
+                    <label><input type="radio" class="paino_controls" name="contrlos" value="none"> None</label>
+                </div>
+                <div class="paino_autoplay">
+                    <h4 class="piano_heading">AUTOPLAY</h4>
+                    <select class="paino_song_list">
+                        <option value="1">jinglebells</option>
+                        <option value="2">happy birthday</option>
+                        <option value="1"></option>
+                    </select>
+                    <label>Tempo:
+                        <select class="piano_tempo">
+                            <option value="1">Slow</option>
+                            <option value="2">Normal</option>
+                            <option value="3">Fast</option>
+                        </select>
+                    </label>
+                    <botton class="paino_play-btn">PLAY</botton>
+                </div>
+            </div>
+
+            <div class="paino_speaker"></div>
+
+        </div>
+
+        <div class="piano_keyboard">
+            <button class="paino_keys paino_key--white">C1</button>
+            <button class="paino_keys paino_key--black">c#1</button>
+            <button class="paino_keys paino_key--white">D1</button>
+            <button class="paino_keys paino_key--black">D#1</button>
+            <button class="paino_keys paino_key--white">E</button>
+            <button class="paino_keys paino_key--white">F</button>
+        </div>
+    </div>
+    <script src="js/javasc.js"></script>
+</body>
+
+</html>
